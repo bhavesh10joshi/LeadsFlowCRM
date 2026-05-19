@@ -1,5 +1,4 @@
 import { Sidebar } from "../Components/SideBar/Sidebar"
-import { Navbar } from "../Components/DasboardNavbar/DNavbar"
 import { SearchFilters } from "../Components/Search/SearchFilters"
 import { SearchResultsTable } from "../Components/Search/SearchResultsTable"
 
@@ -11,9 +10,6 @@ export function AdvancedSearchDashboard()
                 <Sidebar/>
             </div>
             <div className="w-full lg:w-[82%] lg:ml-[18%] p-4 md:p-[2rem] flex flex-col h-screen overflow-y-auto gap-6">
-                <div className="w-full">
-                    <Navbar/>
-                </div>
                 <div className="w-full">
                     <SearchFilters />
                 </div>
