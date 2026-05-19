@@ -2,7 +2,7 @@ interface InputStyles{
     type : "text" | "password",
     Placeholder : string , 
     Color : "white" | "Slate" , 
-    size : "primary" | "secondary" | "tertiary" , 
+    size : "primary" | "secondry" | "tertiary" , 
     TextColor : "Grey" | "Black" 
 }
 
