@@ -12,6 +12,7 @@
     <img src="https://img.shields.io/badge/MongoDB-Mongoose-47A248?logo=mongodb&logoColor=white" alt="MongoDB" />
     <img src="https://img.shields.io/badge/TypeScript-Strict-3178C6?logo=typescript&logoColor=white" alt="TypeScript" />
     <img src="https://img.shields.io/badge/TailwindCSS-3.x-06B6D4?logo=tailwindcss&logoColor=white" alt="TailwindCSS" />
+    <img src="https://img.shields.io/badge/Deployed_on-Vercel-000000?logo=vercel&logoColor=white" alt="Vercel" />
   </p>
 </p>
 
@@ -353,6 +354,17 @@ LeadFlowCRM/
 | `source` | string | `"linkedin"` | Filter by source |
 | `sortBy` | string | `"createdAt"` | Field to sort by |
 | `sortOrder` | string | `"desc"` | Sort direction (`asc` or `desc`) |
+
+---
+
+## 🚀 Deployment
+
+The application is fully deployed and hosted on **Vercel**:
+- **Frontend**: Deployed as a static React SPA on Vercel.
+- **Backend**: Deployed as serverless Node.js functions on Vercel.
+- **Database**: Hosted securely on MongoDB Atlas.
+
+Both frontend and backend are seamlessly integrated in the cloud, offering a complete, production-ready environment.
 
 ---
 
