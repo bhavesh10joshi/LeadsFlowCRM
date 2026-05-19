@@ -15,7 +15,7 @@ export function Navbar(){
                 </div>
             </div>
             <div className="flex-shrink-0 hidden sm:block">
-                <Button size="primary" text="New Lead" color="blue" textColor="white"/>
+                <Button size="secondry" text="Advanced Search" color="blue" textColor="white"/>
             </div>
         </div>
     </>
