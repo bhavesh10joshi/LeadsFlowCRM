@@ -4,6 +4,9 @@
     <strong>A Smart Leads Dashboard — Full-Stack CRM for Modern Sales Teams</strong>
   </p>
   <p align="center">
+    <a href="https://leads-flow-crm-2iw9.vercel.app/" target="_blank"><strong>🚀 Live Demo Available Here</strong></a>
+  </p>
+  <p align="center">
     Built with React • Node.js • Express • MongoDB • TypeScript
   </p>
   <p align="center">
@@ -360,6 +363,7 @@ LeadFlowCRM/
 ## 🚀 Deployment
 
 The application is fully deployed and hosted on **Vercel**:
+- **Live Demo**: [https://leads-flow-crm-2iw9.vercel.app/](https://leads-flow-crm-2iw9.vercel.app/)
 - **Frontend**: Deployed as a static React SPA on Vercel.
 - **Backend**: Deployed as serverless Node.js functions on Vercel.
 - **Database**: Hosted securely on MongoDB Atlas.
