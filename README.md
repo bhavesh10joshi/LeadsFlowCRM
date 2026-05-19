@@ -386,7 +386,7 @@ Both frontend and backend are seamlessly integrated in the cloud, offering a com
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/LeadFlowCRM.git
+git clone https://github.com/bhavesh10joshi/LeadsFlowCRM.git
 cd LeadFlowCRM
 ```
 
@@ -491,8 +491,7 @@ curl http://localhost:8000/LeadFlow/Api/Lead/All?page=1 \
 |---|---|
 | **JWT in localStorage** | Simple token management for SPA; trade-off vs httpOnly cookies acknowledged |
 | **Zod on both client & server** | Fail-fast on the client → better UX; validate again on server → security |
-| **useRef for form inputs** | Follows the existing TripzyAI codebase pattern; avoids re-renders on every keystroke |
-| **Inline overlays vs toast library** | Matches TripzyAI's error/success pattern; no extra dependencies |
+| **useRef for form inputs** 
 | **Backend pagination** | Efficient for large datasets; only fetches 10 records per request |
 | **AdminOnly middleware** | Separate middleware function keeps route handlers clean |
 | **Enum-based status codes** | Centralized, readable HTTP status management |
