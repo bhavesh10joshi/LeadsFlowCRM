@@ -1,6 +1,4 @@
 import { useEffect, useState, useRef } from "react"
-import { Google } from "../Icons/Google"
-import { GitHub } from "../Icons/Github"
 import axios from "axios"
 import { VITE_BACKEND_URL } from "../BackendUrl/BackendUrl"
 import { useNavigate } from "react-router-dom"
