@@ -114,24 +114,7 @@ export function Login()
                     <div className="flex justify-start items-center w-full text-[1.2rem] font-semibold font-mono leading-tight">
                         Welcome Back
                     </div>
-                    <div className="flex justify-center items-center w-full gap-5 mt-[2rem]">
-                        <button aria-label="Google Login" className="flex justify-center items-center w-2/4 border-slate-300 border-[0.1rem] rounded-lg pt-[0.5rem] pb-[0.5rem] transition-all duration-300 hover:bg-slate-50 hover:border-slate-400 hover:scale-[1.02] active:scale-[0.98]">
-                            <Google/>
-                        </button>
-                        <button aria-label="Github Login" className="flex justify-center items-center w-2/4 border-slate-300 border-[0.1rem] rounded-lg pt-[0.5rem] pb-[0.5rem] transition-all duration-300 hover:bg-slate-50 hover:border-slate-400 hover:scale-[1.02] active:scale-[0.98]">
-                            <GitHub/>
-                        </button>
-                    </div>
-                    <div className="flex justify-center items-center mt-[2rem]">
-                        <div className="flex justify-center items-center rounded-md w-2/6 bg-slate-300 h-[0.05rem]">
-                        </div>
-                        <div className="flex justify-center items-center text-[0.6rem] w-2/6 text-slate-400 text-center font-semibold tracking-wider">
-                            OR CONTINUE WITH EMAIL
-                        </div>
-                        <div className="flex justify-center items-center rounded-md w-2/6 bg-slate-300 h-[0.05rem]">
-                        </div>
-                    </div>
-                    <div className="mt-[1rem]">
+                    <div className="mt-[4rem]">
                         <div>
                             <div className="text-[0.8rem] font-bold text-slate-700">Email Address</div>
                             <div className="flex justify-center items-center w-full mt-[0.5rem]">
