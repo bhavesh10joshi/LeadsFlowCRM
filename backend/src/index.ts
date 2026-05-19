@@ -8,6 +8,7 @@ import LeadRouter from "./Routes/Lead/Lead";
 const envPath = path.resolve(process.cwd(), ".env");
 dotenv.config({ path: envPath });
 
+// NewComment
 const app = express();
 app.use(express.json());
 app.use(cors());
